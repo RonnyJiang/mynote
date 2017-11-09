@@ -2,9 +2,9 @@
 # leanote config
 #------------------------
 
-http.port=9000
+http.port=8090
 
-site.url=http://localhost:9000 # or http://x.com:8080, http://www.xx.com:9000
+site.url=http://localhost:8090 # or http://x.com:8080, http://www.xx.com:9000
 
 # admin username
 adminUsername=admin
