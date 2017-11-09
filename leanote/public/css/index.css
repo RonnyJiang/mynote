@@ -113,7 +113,7 @@ a:hover {
   height: 50px;
   display: inline-block;
   margin-top: -5px;
-  padding: 8px;
+  padding: 0px;
 }
 #headerContainer .navbar-nav a {
   line-height: 60px;
