@@ -1,6 +1,7 @@
 #igore data
 leanote/mongodb_backup
 leanote/conf/app.conf
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
