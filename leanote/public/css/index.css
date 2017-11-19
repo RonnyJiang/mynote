@@ -18,6 +18,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#lemonlogo {
+    display: block;
+    background: url(https://lemonpub.oss-cn-shanghai.aliyuncs.com/logo/lemon_logo.png);
+    background-repeat: no-repeat;
+    background-position: 50% -4px;
+    height: 85px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .icon-markdown:before {
   content: "\e604";
 }
