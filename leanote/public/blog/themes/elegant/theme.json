@@ -19,13 +19,14 @@
 {
     "Name": "Leanote elegant",
     "Version": "1.0",
-    "Author": "leanote.com",
-    "AuthorUrl": "http://leanote.com",
+    "Author": "lemon.pub",
+    "AuthorUrl": "https://lemon.pub",
     "FriendLinks": [
-        {"Title": "My Note", "Url": "http://leanote.com/note"},
-        {"Title": "Leanote Home", "Url": "http://leanote.com"},
-        {"Title": "Leanote Comunity", "Url": "https://groups.google.com/forum/?fromgroups#!forum/leanote"},
-        {"Title": "lea++", "Url": "http://lea.leanote.com"},
-        {"Title": "Leanote Github", "Url": "https://github.com/leanote/leanote"}
+        {"Title": "EXT Blog", "Url": "https://class.pub"},
+        {"Title": "Lemon Home", "Url": "https://lemon.pub"},
+        {"Title": "Our Plan", "Url": "https://plan.lemon.pub"},
+        {"Title": "Family+", "Url": "http://family.lemon.pub"},
+        {"Title": "Contact", "Url": "https://contact.lemon.pub"}
+
     ]
 }
