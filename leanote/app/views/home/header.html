@@ -45,13 +45,13 @@ function log(o) {
 				<li><a href="/index#" data-target="body" class="smooth-scroll">{{msg . "home"}}</a></li>
 				{{if .userInfo.Email}}
 				<li style="position: relative; margin-right: 3px;">
-					<a href="http://plan.lemon.pub" target="_blank" class="">{{msg . "myPlan"}}</a>
+					<a href="https://plan.lemon.pub" target="_blank" class="">{{msg . "myPlan"}}</a>
 				</li>
 
-				<li><a href="http://music.lemon.pub" target="_blank" title="my music" class="">{{msg . "myMusic"}}</a></li>
-				<li><a href="http://cloud.lemon.pub" target="_blank" title="my cloud" class="">{{msg . "myCloud"}}</a></li>
+				<li><a href="https://music.lemon.pub" target="_blank" title="my music" class="">{{msg . "myMusic"}}</a></li>
+				<li><a href="https://oss.console.aliyun.com/overview" target="_blank" title="my cloud" class="">{{msg . "myCloud"}}</a></li>
 				{{end}}
-				<li><a href="http://contact.lemon.pub" target="_blank" title="my contact"class="">{{msg . "myContact"}}</a></li>
+				<li><a href="https://contact.lemon.pub" target="_blank" title="my contact"class="">{{msg . "myContact"}}</a></li>
 
 				<div class="pull-right" id="loginBtns">
 					{{if .userInfo.Email}}
