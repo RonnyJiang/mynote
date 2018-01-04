@@ -18,6 +18,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#kbbslogo {
+    display: block;
+    background: url(https://kbbs.oss-cn-shanghai.aliyuncs.com/logo/gray_logo.png);
+    background-repeat: no-repeat;
+    background-position: 50% -4px;
+    height: 85px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
 .icon-markdown:before {
   content: "\e604";
 }
@@ -110,7 +121,7 @@ a:hover {
   padding-left: 10px;
 }
 #headerContainer .navbar-brand img {
-  height: 55px;
+  height: 50px;
   display: inline-block;
   margin-top: 0px;
   padding: 0px;
