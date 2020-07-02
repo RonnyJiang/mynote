@@ -1,0 +1,292 @@
+{{template "home/header.html" .}}
+</style>
+<section>
+	<div class="header">
+                <!--div>
+                    <img title="欢迎阅读我的博客" src="https://fs.class.pub/home/index/opened-book-near-ceramic-mug.jpg" style="height: 300px;width: 1100px;"/>
+                    <!--图片按照指定大小增大或者缩小-->
+                </div-->
+                <div>
+                    <a href="https://class.pub/blog/haiyang" target="_blank">
+                        <img title="欢迎阅读我的博客" src="https://fs.class.pub/home/index/opened-book-near-ceramic-mug.jpg" style="height: 300px;width: 1100px;"/>
+                    </a>
+                </div>
+                <h2>这里记录工作和学习中遇到的知识点，并做了总结。如果哪里有问题，欢迎指正</h2>
+	        <!--	
+		<div>
+			<a class="btn btn-default btn-primary" href="/register">{{msg . "register"}}</a> 
+			&nbsp;
+			&nbsp;
+			{{if not .userInfo.UserId}}
+				<a class="btn btn-default" href="/login">{{msg . "login"}}</a>
+				&nbsp;
+				&nbsp;
+			{{end}}
+			
+			<a class="btn btn-default" href="/demo">{{msg . "try"}}</a>
+		</div> 
+                -->
+	</div>
+        <!--div id="lay_content_search_and_weather">
+            <div id="weather-box">
+            </div>
+            <div id="search-box">
+                <span><select id="selectSearch" class="selectSearchBtn"  onchange="selectSearch(this)">
+                    <option value="baidu" selected="selected">百度</option>
+                    <option value="google">谷歌</option>
+                    <option value="mywebsite">站内</option>
+                </select></span>
+                <form id="from_search" style="display:inline " action="https://www.baidu.com/baidu" target="_blank" method="get">
+                    <span><input id="searchinput" class="searchinput"   type="text" name="word" /></span>
+                    <span><input id="searchbtn" class="searchbtn" type="submit" value="搜索"/></span>
+                </form>
+            </div>
+        </div-->	
+	<!--div class="preview" style="position: relative;">
+		<div>
+			<div class="img-header">
+				<img src="/images/home/mac-btns.png"/>
+			</div>
+			<div id="webSliderContainer">
+			    <img class="web-slider" data-text="Default theme - markdown" src="/images/slider/v2/default_markdown.png"/>
+			    <img class="web-slider hide-img" data-text="Default theme - rich editor"  src="/images/slider/v2/simple_tinymce.png"/>
+			    <img class="web-slider hide-img" data-text="Simple theme - markdown" src="/images/slider/v2/simple_markdown.png"/>
+			    <img class="web-slider hide-img" data-text="Writting mode" src="/images/slider/v2/writting.png"/>
+			</div>
+		</div>
+		<div class="slider-desc"><span id="webText">Default theme - markdown</span></div>
+		<div class="mobile">
+			<div class="mobile-header">
+				<img src="/images/home/mac-dot.png" />
+			</div>
+			<div id="mobileSliderContainer">
+		        <img class="mobile-slider" data-text="Mobile" src="/images/slider/v2/mobile_simple_list.png" />
+			    <img class="mobile-slider hide-img" data-text="Mobile markdown" src="/images/slider/v2/mobile_markdown.png" />
+			</div>
+		    <div class="slider-desc mobile-text"><span id="mobileText">Default theme - markdown</span></div>
+		</div>
+                <div>待完善部分</div>
+	</div-->
+</section>
+
+<div class="container" id="aboutLeanote">
+        <h2>我常浏览的网址</h2>
+          <div id="lay_content_hub_two" class="lay_content_hub">
+                <div class="clearfix">
+                    <p style="padding-top: 5px;color: #0e0e0e;font-weight: bold">you will always use it:</p>
+                    <ul>
+
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.shiyanlou.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/shiyanlou.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.shiyanlou.com/" title="实验楼">&nbsp;实验楼</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://mooc.guokr.com/course/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/guokr.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://mooc.guokr.com/course/" title="果壳">&nbsp;果壳</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.v2ex.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/v2ex.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.v2ex.com/" title="v2ex">&nbsp;v2ex</a>
+                        </li>
+
+                        <li class="site-item-small" >
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.jianshu.com">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/jianshu.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.jianshu.com" title="简书">&nbsp;简书</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.csdn.net/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/csdn.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.csdn.net/" title="csdn">&nbsp;csdn</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.cnblogs.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/cnblogs.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.cnblogs.com/" title="博客园">&nbsp;博客园</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.runoob.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/runoob.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.runoob.com/" title="菜鸟">&nbsp;菜鸟</a>
+                        </li>
+                        <li class="site-item-small" style="padding-left: 20px">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.freebuf.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/freebuf.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.freebuf.com/" title="FreeBuf">&nbsp;FreeBuf</a>
+                        </li>
+
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://linux.cn/" title="linux中国">&nbsp;linux中国</a>
+                        </li>
+
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://hub.docker.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/docker.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://hub.docker.com/" title="docker">&nbsp;docker</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://github.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/github.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://github.com/" title="环球时报">&nbsp;github</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://segmentfault.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/segmentfault.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://segmentfault.com/" title="segmentfault">&nbsp;segf</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://pixabay.com">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/pixabay.png">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://pixabay.com" title="pixabay">&nbsp;PX</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"-->
+                                <href="http://www.w3school.com.cn/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/w3school.png">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.w3school.com.cn/" title="w3school">&nbsp;w3school</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <div style="color: #0e0e0e;font-weight: bold;float: none">try to use it:</div>
+                    <ul>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.aliyun.com">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/aliyun.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.aliyun.com" title="阿里云">&nbsp;阿里云</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://mail.aliyun.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/aliyunmail.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://mail.aliyun.com/" title="阿里邮">&nbsp;云</a>
+                            <span>&nbsp;•&nbsp;</span>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://mail.jianghaiyang.com/" title="企">企</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://pan.baidu.com">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/tieba.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://pan.baidu.com">&nbsp;网盘</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.52pojie.cn/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/52pojie.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="https://www.52pojie.cn/" title="吾爱破解">&nbsp;吾爱</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://stevemccurry.com/galleries">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/xzsy.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://stevemccurry.com/galleries" title="小摄影">&nbsp;小摄影</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.ename.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/ename.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://www.ename.com/" title="易名中国">&nbsp;易名中国</a>
+                        </li>
+                        <li class="site-item-small">
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://gate.guokr.com/">
+                                <img class="myweb_site_img_content" src="https://jianghaiyang.oss-cn-shanghai.aliyuncs.com/images/link_icon/guokrgate.ico">
+                            </a>
+                            <a  onfocus="this.blur()" target="_blank"
+                                href="http://gate.guokr.com/" title="任意门">&nbsp;任意门</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+	<!--h2>{{msg . "aboutLeanote"}}</h2>
+     <div class="row">
+        <div class="col-md-3">
+          <h3>{{msg . "knowledge"}}</h3>
+          <p>{{msg . "knowledgeInfo"}}</p>
+        </div>
+         <div class="col-md-3">
+          <h3>{{msg . "blog"}}</h3>
+          <p>{{msg . "blogInfo"}}</p>
+        </div>
+        <div class="col-md-3">
+          <h3>{{msg . "share"}}</h3>
+          <p>{{msg . "shareInfo"}}</p>
+       </div>
+        <div class="col-md-3">
+          <h3>{{msg . "cooperation"}}</h3>
+          <p>{{msg . "cooperationInfo"}}</p>
+        </div>
+      </div-->
+</div>
+
+{{template "home/footer.html"}}
+<script src="/js/jquery-1.9.0.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script>
+var lang = '{{.locale}}';
+</script>
+<script src="/js/home/index.js"></script>
+
+
+</body>
+</html>

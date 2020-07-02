@@ -4,14 +4,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="kbbs, 知识论坛, knowledge bbs, KBBS, kbbs.net, KBBS.NET,bbs">
-<meta name="description" content="KBBS,知识论坛, {{msg $ "moto"}}">
+<meta name="keywords" content="RonnyJiang, knowledge bbs, Ronny's class, class.pub, CLASS.PUB,bbs">
+<meta name="description" content="class.pub,Ronny的個人主頁, {{msg $ "moto"}}">
 <meta name="author" content="RonnyJiang">
-<title>kbbs_知识论坛</title>
+<title>Ronny Public Class</title>
 
 <link href="/css/bootstrap.css" rel="stylesheet">
 <link href="/css/font-awesome-4.2.0/css/font-awesome.css" rel="stylesheet">
 <link href="/css/index.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fs.class.pub/CSS/jhy_pc.css" />
+<!--<link rel="stylesheet" type="text/css" href="https://kbbs.oss-cn-shanghai.aliyuncs.com/website/css/kbbs_pc.css" />-->
+<script type="text/javascript" src="https://kbbs.oss-cn-shanghai.aliyuncs.com/website/js/kbbs_pc.js"></script>
 
 <script>
 function log(o) {
@@ -42,14 +45,14 @@ function log(o) {
 			</div> -->
 
 			<ul class="nav navbar-nav navbar-left">
-				<li><a href="/index#" data-target="body" class="smooth-scroll">{{msg . "home"}}</a></li>
-				{{if .userInfo.Email}}
+				<!--<li><a href="/index#" data-target="body" class="smooth-scroll">{{msg . "home"}}</a></li>-->
+				<!--{{if .userInfo.Email}}
                                 <li style="position: relative; margin-right: 3px;">
                                         <a href="http://plan.kbbs.net" target="_blank" class="">{{msg . "myPlan"}}</a>
 				</li>
                                 <li><a href="https://music.kbbs.net" target="_blank" title="my music" class="">{{msg . "myMusic"}}</a></li>
 				<li><a href="https://cloud.kbbs.net" target="_blank" title="my cloud" class="">{{msg . "myCloud"}}</a></li>
- 				{{end}}
+ 				{{end}}-->
 
 
 	        	<div class="pull-right" id="loginBtns">
@@ -58,7 +61,8 @@ function log(o) {
 			        	<a href="{{$.noteUrl}}">{{msg . "myNote"}}</a>
 			        	<a href="/logout">{{msg . "logout"}}</a>
 		         	{{else}}
-		                	<a href="/login">{{msg . "login"}}</a>
+                                        <!--不在主页显示登录，方式审核麻烦-->
+		                	<!--a href="/login">{{msg . "login"}}</a-->
 			        	{{if .openRegister}}
 			        	<a href="/register" class="btn-register">{{msg . "register"}}</a>
 			        	{{end}}

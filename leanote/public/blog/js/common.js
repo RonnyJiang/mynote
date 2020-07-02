@@ -53,7 +53,7 @@ function getShareUrl() {
 	return location.href;
 }
 function getShareTitle(title) {
-	return encodeURI(title + " (from https://leanote.com)");
+	return encodeURI(title + " (from https://class.pub)");
 }
 function shareSinaWeibo(noteId, title, pic) {
 	var url = "http://service.weibo.com/share/share.php?title=" + getShareTitle(title) + "&url=" + getShareUrl(noteId);
@@ -364,7 +364,7 @@ function getCurHostUrl() {
 	return "//" + location.host;
 }
 function getLeanoteUrl() {
-	return siteUrl || "http://leanote.com";
+	return siteUrl || "https://11class.pub";
 }
 // 得到博客统计信息
 function getPostStat(noteId, callback) {
